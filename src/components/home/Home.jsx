@@ -13,7 +13,7 @@ const Home = () => {
         }} className='bg-blue-300 mt-20  '>
 
             <div className='grid grid-cols-1 lg:grid-cols-3 px-10'>
-                <div className='flex flex-col justify-center items-center col-span-2  md:py-11'>
+                <div className='flex flex-col justify-center items-center col-span-2 mt-10 md:mt-0 md:py-11'>
                     <div>
                         <h1 className='text-white  text-3xl md:text-7xl' style={{fontFamily:'Kavoon'}}>Zebra: Stripes of Balance, Traits of Property</h1>
                     </div>

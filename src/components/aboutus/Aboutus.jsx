@@ -16,7 +16,7 @@ const Aboutus = () => {
       }}
       className="bg-blue-300 "
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 p-6 items-center">
+      <div id="about" className="grid grid-cols-1 md:grid-cols-2 p-6 items-center">
         <div className="flex justify-center items-end md:mt-16">
           <img src={zepraabout} height="500px" width="400px" />
         </div>
@@ -34,7 +34,7 @@ const Aboutus = () => {
       </div>
 
       {/* how to buy */}
-      <div className="mt-7">
+      <div className="mt-7" id="buy">
         <h1 className="text-center text-white text-5xl" style={{fontFamily:'Kavoon'}}>How to buy</h1>
         <p className="text-center text-white text-2xl mt-6" style={{fontFamily:'Kavoon'}}>Lorem ipsum dolor sit amet consectetur <br/> adipisicing elit. Autem iure porro officiis praesentium</p>
         <div className="grid grid-cols-1 md:grid-cols-3 p-14">

@@ -66,42 +66,47 @@ const Navbar = () => {
                 className="block py-2 px-3 text-white  rounded  "
                 aria-current="page"
                 style={{fontFamily:'Kavoon'}}
+                onClick={() =>setIsOpen(false)}
               >
                 Home
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#about"
                 className="block py-2 px-3  rounded   text-white    "
                 style={{fontFamily:'Kavoon'}}
+                onClick={() =>setIsOpen(false)}
               >
                 About
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#buy"
                 className="block py-2 px-3  rounded text-white"
                 style={{fontFamily:'Kavoon'}}
+                onClick={() =>setIsOpen(false)}
               >
                 How to Buy
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#tokenomics"
                 className="block py-2 px-3 rounded text-white  "
                 style={{fontFamily:'Kavoon'}}
+                onClick={() =>setIsOpen(false)}
               >
                 Tokenomics
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#faq"
                 className="block py-2 px-3 rounded text-white  "
                 style={{fontFamily:'Kavoon'}}
+                onClick={() =>setIsOpen(false)}
               >
                 Faq
               </a>

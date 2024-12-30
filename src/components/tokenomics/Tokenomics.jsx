@@ -21,7 +21,7 @@ const Tokenomics = () => {
       >
         Tokenomics
       </h1>
-      <div className="grid grid-cols-1  md:grid-cols-3">
+      <div id="tokenomics" className="grid grid-cols-1  md:grid-cols-3">
         <div className="flex col-span-2 justify-center items-center">
           <div className=" md:px-6  px-1">
             <div className="relative">
@@ -69,28 +69,28 @@ const Tokenomics = () => {
           <img src={tokenzepra} className="w-[400px] h-[500px]" />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-20">
-        <div className="flex   justify-center">
+      <div id="faq" className="grid grid-cols-1 md:grid-cols-2 mt-20">
+        <div className="flex order-2 md:order-1  justify-center">
             <img src={faqzepra} className="2xl:h-[700px] h-[500px] w-[400px]" />
         </div>
-        <div className="flex flex-col justify-center">
+        <div className="flex order-1 md:order-2 flex-col justify-center">
             <h1 style={{ fontFamily: "Kavoon" }} className="text-white text-6xl text-start ml-10">FAQ</h1>
             <div className="flex py-1 flex-col">
                 <div className="relative">
                     <img src={faq} className="h-[90px] w-[600px]" />
-                    <p className="absolute top-[20px] md:top-[30px] left-[3rem] text-white text-xl md:text-2xl" style={{ fontFamily: "Kavoon" }}>Q1# What FAQ or FAQ Page Includes</p>
+                    <p className="absolute top-[25px] md:top-[30px] left-[2rem] text-white text-xl md:text-2xl" style={{ fontFamily: "Kavoon" }}>Q1# What FAQ or FAQ Page Includes</p>
                 </div>
                 <div className="relative my-3">
                     <img src={faq} className="h-[90px] w-[600px]" />
-                    <p className="absolute top-[20px] md:top-[30px] left-[3rem] text-white text-xl md:text-2xl" style={{ fontFamily: "Kavoon" }}>Q1# What FAQ or FAQ Page Includes</p>
+                    <p className="absolute top-[25px] md:top-[30px] left-[2rem] text-white text-xl md:text-2xl" style={{ fontFamily: "Kavoon" }}>Q1# What FAQ or FAQ Page Includes</p>
                 </div>
                 <div className="relative mb-3">
                     <img src={faq} className="h-[90px] w-[600px]" />
-                    <p className="absolute top-[20px] md:top-[30px] left-[3rem] text-white text-xl md:text-2xl" style={{ fontFamily: "Kavoon" }}>Q1# What FAQ or FAQ Page Includes</p>
+                    <p className="absolute top-[25px] md:top-[30px] left-[2rem] text-white text-xl md:text-2xl" style={{ fontFamily: "Kavoon" }}>Q1# What FAQ or FAQ Page Includes</p>
                 </div>
                 <div className="relative">
                     <img src={faq} className="h-[90px] w-[600px]" />
-                    <p className="absolute top-[20px] md:top-[30px] left-[3rem] text-white text-xl md:text-2xl" style={{ fontFamily: "Kavoon" }}>Q1# What FAQ or FAQ Page Includes</p>
+                    <p className="absolute top-[25px] md:top-[30px] left-[2rem] text-white text-xl md:text-2xl" style={{ fontFamily: "Kavoon" }}>Q1# What FAQ or FAQ Page Includes</p>
                 </div>
             </div>
         </div>
