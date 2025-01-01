@@ -14,7 +14,7 @@ const Aboutus = () => {
         backgroundPosition: "center",
         width: "100%", // Full width
       }}
-      className="bg-blue-300 "
+      className="bg-[#00B1DE] bg-opacity-85 "
     >
       <div id="about" className="grid grid-cols-1 md:grid-cols-2 p-6 items-center">
         <div className="flex justify-center items-end md:mt-16">

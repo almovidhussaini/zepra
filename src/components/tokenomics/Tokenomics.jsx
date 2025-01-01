@@ -13,7 +13,7 @@ const Tokenomics = () => {
         backgroundPosition: "center",
         width: "100%", // Full width
       }}
-      className="bg-blue-300 "
+      className="bg-[#00B1DE] bg-opacity-85 "
     >
       <h1
         style={{ fontFamily: "Kavoon" }}
